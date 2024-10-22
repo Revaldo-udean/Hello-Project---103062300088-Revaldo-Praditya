@@ -104,6 +104,7 @@ func (qs *QuizSystem) RegisterParticipant(name string) {
 	qs.NextPID++
 }
 
+// ini adalah komentar :D
 // Peserta mengikuti kuis
 func (qs *QuizSystem) TakeQuiz(participantID int, numQuestions int) {
 	participant := qs.GetParticipant(participantID)
